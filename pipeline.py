@@ -1,10 +1,10 @@
 import json
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from prompts import extract_prompt, clean_prompt, classify_prompt, enhance_prompt, ats_prompt
 from utils import json_to_text
 
 # -------- MULTI LLM --------
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_anthropic import ChatAnthropic
 

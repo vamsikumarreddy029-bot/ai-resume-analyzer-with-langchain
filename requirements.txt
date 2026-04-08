@@ -1,6 +1,7 @@
 streamlit
 langchain
-openai
+langchain-core
+langchain-openai
 langchain-google-genai
 langchain-anthropic
 PyPDF2
