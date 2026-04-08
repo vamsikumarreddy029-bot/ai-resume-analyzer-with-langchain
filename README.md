@@ -1,58 +1,73 @@
-🧠 Project Title
-AI Resume Optimizer using LangChain
+# 🧠 AI Resume Optimizer (LangChain + Multi-LLM)
 
-🚀 Overview
-An end-to-end AI system that processes resumes and generates ATS-optimized, recruiter-ready outputs using a multi-step LangChain pipeline.
+🚀 A production-ready GenAI project that transforms resumes into ATS-optimized, recruiter-ready formats using a multi-step LangChain pipeline.
 
-🔥 Features
-Multi-format resume input (TXT, PDF, DOCX)
+---
 
-Structured data extraction
+## 🌐 Live Demo
 
-Resume cleaning & normalization
+👉 https://ai-resume-analyzer-with-langchain-s7atve8jw34zjkuwtxxwmb.streamlit.app/
 
-Candidate classification (AI / Web / Data roles)
+---
 
-Resume enhancement (ATS optimized)
+## 📂 GitHub Repository
 
-ATS scoring & suggestions
+👉 https://github.com/vamsikumarreddy029-bot/ai-resume-analyzer-with-langchain
 
-Editable + downloadable output
+---
 
-⚙️ Tech Stack
-LangChain
+## 🚀 Features
 
-OpenAI API
+✅ Multi-format resume input (TXT, PDF, DOCX)  
+✅ Structured data extraction using LLMs  
+✅ Resume cleaning & normalization  
+✅ Candidate classification (AI / Web / Data roles)  
+✅ Resume enhancement (ATS optimized)  
+✅ ATS scoring + improvement suggestions  
+✅ Editable resume output  
+✅ Download optimized resume  
+✅ Multi-LLM support (OpenAI, Gemini, Claude)  
 
-Streamlit
+---
 
-PyPDF2
+## ⚙️ Tech Stack
 
-python-docx
+- LangChain (LLM orchestration)
+- OpenAI API
+- Google Gemini API
+- Anthropic Claude API
+- Streamlit (UI + deployment)
+- PyPDF2 (PDF parsing)
+- python-docx (Word parsing)
 
-🧠 Architecture
+---
+
+## 🧠 System Architecture
 Resume Input
-   ↓
-Extraction (JSON)
-   ↓
-Transformation
-   ↓
-Cleaning
-   ↓
+↓
+LLM Extraction (JSON)
+↓
+Data Transformation
+↓
+Resume Cleaning
+↓
 Classification
-   ↓
+↓
 Enhancement
-   ↓
+↓
 ATS Scoring
-   ↓
-Final Output
-▶️ Run Locally
+↓
+Final Output (Editable + Downloadable)
+
+---
+
+
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/vamsikumarreddy029-bot/ai-resume-analyzer-with-langchain.git
+cd ai-resume-analyzer-with-langchain
+
 pip install -r requirements.txt
 streamlit run app.py
-
-💡 Key Learnings
-Designed modular LLM pipelines
-
-Implemented structured output parsing
-
-Built real-world GenAI system
