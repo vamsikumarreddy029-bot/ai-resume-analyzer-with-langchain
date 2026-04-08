@@ -1,0 +1,7 @@
+streamlit
+langchain
+openai
+langchain-google-genai
+langchain-anthropic
+PyPDF2
+python-docx
